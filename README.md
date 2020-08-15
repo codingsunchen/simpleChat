@@ -1,2 +1,2 @@
 # simpleChat
-端对端的chat项目
+端对端的简易chat项目
