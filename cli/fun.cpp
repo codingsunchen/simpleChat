@@ -4,7 +4,6 @@
 #include <vector>
 #include"fun.h"
 #include"public.h"
-#include <json/json.h>
 #include <arpa/inet.h>
 #include <sys/socket.h>
 #include <sys/types.h>
@@ -12,6 +11,7 @@
 #include <stdlib.h>
 #include <unistd.h>
 #include <signal.h>
+#include <jsoncpp/json/json.h>
 using namespace std;
 int flg = 0;
 

@@ -1,4 +1,4 @@
 cli : *.cpp
-	g++ -o $@ $^ -lpthread -ljson -g
+	g++ -o $@ $^ -lpthread -ljsoncpp -g
 clean : 
 	rm -rf server
