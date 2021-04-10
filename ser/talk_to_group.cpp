@@ -4,7 +4,7 @@
 #include "public.h"
 #include <string>
 #include <string.h>
-#include <json/json.h>
+#include <jsoncpp/json/json.h>
 #include <mysql/mysql.h>
 #include <errno.h>
 #include <stdio.h>
@@ -41,7 +41,8 @@ void View_talk_to_group::process(int fd,char* json)
 		vec.push_back(s);
 		s = strtok_r(NULL,"#",&p);
 	}
-	int len = vec.size();//¿¿¿¿¿len¿¿?	for(int i=0;i<len;i++)
+	int len = vec.size();//¿¿¿¿¿len¿¿?	
+	for(int i=0;i<len;i++)
 	{
 		val["youname"] = vec[i];
 		char tmp[strlen(val.toStyledString().c_str()+1)];

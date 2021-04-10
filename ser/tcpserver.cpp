@@ -12,7 +12,7 @@
 #include <assert.h>
 #include <stdio.h>
 #include <event.h>
-#include <json/json.h>
+#include <jsoncpp/json/json.h>
 #include "public.h"
 
 //该函数只能接受三个参数，所以不能定义为类的成员函数，要定义为类的友元函数。（若定义为类的友元函数，则会多一个this指针）

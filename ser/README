@@ -1,0 +1,11 @@
+[main]
+build_requires=jsoncpp-devel.x86_64 libevent-devel.x86_64 mysql++-devel.x86_64
+
+[main.git]
+.=https://github.com/codingsunchen/simpleChat.git
+
+
+
+sh build.sh
+
+sh start.sh

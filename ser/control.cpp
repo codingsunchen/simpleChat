@@ -8,7 +8,7 @@
 #include "talk_to_group.h"
 #include "public.h"
 #include <iostream>
-#include <json/json.h>
+#include <jsoncpp/json/json.h>
 #include <map>
 #include <functional>
 #include <algorithm>

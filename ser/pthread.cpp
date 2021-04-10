@@ -3,7 +3,7 @@
 #include "public.h"
 #include <assert.h>
 #include <event.h>
-#include <json/json.h>
+#include <jsoncpp/json/json.h>
 #include <stdio.h>
 #include <stdlib.h>
 #include <map>
