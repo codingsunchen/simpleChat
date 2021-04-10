@@ -1,6 +1,16 @@
+[main]
+build_requires=jsoncpp-devel.x86_64
+
+[main.git]
+.=https://github.com/codingsunchen/simpleChat.git
+
+
+
+sh build.sh
 # compile client
 	autoreconf --install
 	autoreconf
 	./configure
 	make -j
 
+sh start.sh
