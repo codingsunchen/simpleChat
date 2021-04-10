@@ -1,0 +1,6 @@
+# compile client
+	autoreconf --install
+	autoreconf
+	./configure
+	make -j
+
